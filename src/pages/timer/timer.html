@@ -1,0 +1,9 @@
+
+
+<ion-content padding>
+    <input type="number" size="3" [(ngModel)]="timer.delay" /> seconds
+    <div>
+        <button ion-button full (click)="cancel()">Cancel</button>
+        <button ion-button full color="secondary" (click)="ok()" >OK</button>
+    </div>
+</ion-content>
